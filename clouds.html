@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+
+  <body>
+
+    <div class="navigation">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="index.html">Latitude</a>
+        <button class="navbar-toggler  border border-white" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="humid.html">Humidity</a>
+                <a class="dropdown-item" href="clouds.html">Cloudiness</a>
+                <a class="dropdown-item" href="wind.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparisons.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+
+            </ul>
+        </div>
+    </nav>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7 col-md-12">
+                <div class="box">
+                    <h3 class="title">Latitude vs. Cloudiness<h3>
+                    <hr>
+                    <div class="container">
+                    <div class="row">
+                      <img class="col-12" src="Cloudiness in World Cities.png" alt="Cloudiness in World Cities">
+                          <p class="text">In this graph we look at how cloudiness is related to a city's latitude. As you can see the results
+                            show that there is no real correlation (as expected). There are more factors that have a greater effect on Cloudiness
+                          that is unrelated to the city's latitude.</p>
+                          </div>
+                        </div>
+                      </div>
+                  </div>
+
+
+
+          <div class="col-lg-5 col-md-12">
+            <div class="box">
+              <h3>Visualizations</h3>
+              <hr>
+
+              <div class="container">
+                <div class="row">
+                  <div class="col-6">
+                    <img src="Humidity in World Cities.png" alt="Humidity in World Cities">
+                  </div>
+                <div class="col-6">
+                  <img src="Cloudiness in World Cities.png" alt="Cloudiness in World Cities">
+                </div>
+                <div class="w-100"></div>
+                <div class="col-6">
+                    <img src="Wind Speed in World Cities.png" alt="Wind Speed in World Cities">
+                </div>
+                  <div class="col-6">
+                      <img src="Temperature in World Cities.png" alt="Temperature in World Cities">
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="js/jquery-1.8.0.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
